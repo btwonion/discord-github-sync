@@ -1,0 +1,11 @@
+[package]
+name = "discord-github-sync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.210", features = ["derive"] }
+serenity = { version = "0.12.2", features = ["client", "gateway", "rustls_backend", "model"] }
+thiserror = "1.0.64"
+tokio = { version = "1.40.0", features = ["macros", "rt-multi-thread"] }
+toml = "0.8.19"
