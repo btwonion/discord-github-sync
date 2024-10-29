@@ -1,2 +1,5 @@
 /target
 .idea
+
+config.toml
+saved_data.toml
