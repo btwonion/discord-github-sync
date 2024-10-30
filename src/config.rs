@@ -11,7 +11,7 @@ pub struct Config {
 
 #[derive(Serialize, Deserialize, Default, Clone)]
 pub struct SavedData {
-    pub(crate) channel_id_to_issue: HashMap<u64, String>,
+    pub(crate) channel_id_to_issue: HashMap<u64, i32>,
 }
 
 pub static mut CONFIG: Option<Config> = None;

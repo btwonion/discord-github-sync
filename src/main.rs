@@ -1,6 +1,7 @@
 mod config;
 mod error;
 mod event;
+mod github;
 
 use crate::config::{Config, SavedData};
 use serenity::prelude::GatewayIntents;
