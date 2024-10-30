@@ -4,7 +4,6 @@ use tokio::fs::{read_to_string, try_exists, write};
 
 #[derive(Serialize, Deserialize, Default, Clone)]
 pub struct Config {
-    #[serde(default)]
     pub(crate) forum_channel_ids: Vec<u64>,
     pub(crate) tag_to_repo: HashMap<u64, String>,
     pub(crate) tag_to_label: HashMap<u64, String>,
